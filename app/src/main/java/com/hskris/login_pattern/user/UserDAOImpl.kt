@@ -15,6 +15,12 @@ class UserDAOImpl : UserDAO {
     }
 
     override fun fetch(username: String): User? {
+        for(user in users){
+            if(user.username == username)
+                return user
+        }
+
+        return null
     }
 
     override fun delete(username: String) {
