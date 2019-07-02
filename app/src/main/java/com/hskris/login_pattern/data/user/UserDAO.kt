@@ -1,4 +1,4 @@
-package com.hskris.login_pattern.user
+package com.hskris.login_pattern.data.user
 
 interface UserDAO {
 
