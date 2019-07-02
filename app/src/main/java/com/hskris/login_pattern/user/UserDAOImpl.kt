@@ -11,6 +11,7 @@ class UserDAOImpl : UserDAO {
     }
 
     override fun add(user: User) {
+        users.add(user)
     }
 
     override fun fetch(username: String): User? {
